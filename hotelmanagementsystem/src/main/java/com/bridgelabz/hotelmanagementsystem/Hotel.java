@@ -15,6 +15,11 @@ public class Hotel {
 		return rate;
 	}
 
+	@Override
+	public String toString() {
+		return "Hotel [name=" + name + ", rate=" + rate + "]";
+	}
+
 	public void setRate(int rate) {
 		this.rate = rate;
 	}
